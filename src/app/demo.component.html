@@ -1,0 +1,11 @@
+ <div class="dynamicForm">
+    <h1>
+        Project Details
+    </h1>
+    <div class="formData">      
+      <dynamic-form [fields]="regConfig" (submit)="submit($event)"></dynamic-form>  
+    </div>  
+    <div class="margin-top">
+      {{ form.value | json }}
+    </div>
+</div>

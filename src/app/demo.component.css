@@ -1,0 +1,20 @@
+.dynamicForm{
+    width: 929px;
+    border-radius: 2px;
+    background-clip: padding-box;
+    border:4px solid #294b8f;
+    box-shadow: 0 0 4px rgba(0,0,0,.2);
+    margin: auto;
+}
+.dynamicForm h1{    
+    background-color: #294b8f;
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+    padding: 0  10px;
+    line-height: 55px;
+    height: 55px;
+}
+.dynamicForm .formData{
+    padding: 10px;
+}
